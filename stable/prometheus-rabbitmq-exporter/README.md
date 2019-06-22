@@ -54,6 +54,7 @@ The following table lists the configurable parameters and their default values.
 | `rabbitmq.url`           | rabbitmq management url                                                | `http://myrabbit:15672`   |
 | `rabbitmq.user`          | rabbitmq user login                                                    | `guest`                   |
 | `rabbitmq.password`      | rabbitmq password login                                                | `guest`                   |
+| `rabbitmq.existingPasswordSecret` | existing secret name containing password key                  | `~`                       |
 | `rabbitmq.capabilities`  | comma-separated list of capabilities supported by the RabbitMQ server  | `bert,no_sort`            |
 | `rabbitmq.include_queues`| regex queue filter. just matching names are exported                   | `.*`                      |
 | `rabbitmq.skip_queues`   | regex, matching queue names are not exported                           | `^$`                      |
